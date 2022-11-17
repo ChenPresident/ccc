@@ -15,9 +15,9 @@
             $uniName     = $fileInfo['name'];   //名字需要唯一
             $destination = $uploadPath.'/'.$uniName;
             if(@move_uploaded_file($fileInfo['tmp_name'], $destination)){
-                $m3u8 = 'http://tohome.vip/'.$destination; //这里修改m3u8域名
+                $m3u8 = 'http://chenpresident.github.io/ccc/'.$destination; //这里修改m3u8域名
                 $key = str_ireplace(".m3u8","",$uniName);
-                $url = "http://cxz.github.io/".$key; //这里修改播放地址域名
+                $url = "http://chenpresident.github.io/ccc/".$key; //这里修改播放地址域名
                 echo json_encode(['code'=>0,'url'=>$url,'m3u8'=>$m3u8]);
             }else{
                 echo '文件移动失败';
