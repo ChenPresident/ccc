@@ -1,0 +1,16 @@
+[
+    {
+        "code":200,
+        "tag":"快手（推荐）",
+        "api":"https://b.kuaishou.com/rest/ad/magnet/matrix/pic/upload?picType=1&biz=matrix",
+        "cookies":"",
+        "name":"picByte",
+        "getcode":"message",
+        "geturl":"data.uri",
+        "okcode":"成功",
+        "getmsg":"",
+        "starturl":"https://tx2.a.yximgs.com",
+        "png":"1",
+        "header":"Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryab0xhWcx8wwW65gN"
+    }
+]
